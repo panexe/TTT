@@ -58,6 +58,9 @@
     <Compile Include="Form_Optionen.Designer.cs">
       <DependentUpon>Form_Optionen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="Move.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

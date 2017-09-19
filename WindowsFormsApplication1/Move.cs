@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    enum Tiles { A1,A2,A3,B1,B2,B3,C1,C2,C3};
-
-
-
-
-    class Game
+    class Move
     {
-        List<Move> Moves;
-        Player Player1;
-        Player Player2;
+        Player player;
+        int time;
+        int time_taken;
 
-        int Time;
-        
-
+        int Tile;
     }
 }
