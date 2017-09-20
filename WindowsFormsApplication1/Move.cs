@@ -8,10 +8,10 @@ namespace WindowsFormsApplication1
 {
     class Move
     {
-        Player _player;
+        public Player _player { get; set; }
         int _time;
         int _time_taken;
-        Tile _tile;
+        public Tile _tile { get; set; }
 
         Game _game;
 

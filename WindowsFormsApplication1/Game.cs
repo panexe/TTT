@@ -13,23 +13,35 @@ namespace WindowsFormsApplication1
 
     class Game
     {
-        List<Move> Moves;
+        public List<Move> Moves;
         public List<Tile> Tiles;
         Player Player1;
         Player Player2;
+        public Player moving_player { get; set; }
 
         bool won;
         int Time;
         
         public Game()
         {
+            Tiles = new List<Tile>();
+            Moves = new List<Move>();
+
+            Player1 = new Player();
+            Player2 = new Player();
+
             for(int i = 0; i < 9; i++)
             {
-                Tiles.Add(new Tile());
+                Tiles.Add(new Tile(i));
             }
 
             Time = 0;
             won = false;
+
+            moving_player = Player1;
+            Player1.markierung = "X";
+            Player2.markierung = "O";
+            
         }
 
         public void Update()
@@ -49,11 +61,25 @@ namespace WindowsFormsApplication1
         public void MakeMove(Player player, Tile tile)
         {
             Moves.Add(new Move(player, tile, this));
+
+            // Ändert den Spieler der am Zug ist
+            if (moving_player == Player1)
+            {
+                moving_player = Player2;
+            }
+            else { moving_player = Player1; }
         }
 
         public void MakeMove(Player player , int tile_id)
         {
             Moves.Add(new Move(player, tile_id, this));
+
+            // Ändert den Spieler der am Zug ist
+            if (moving_player == Player1)
+            {
+                moving_player = Player2;
+            }
+            else { moving_player = Player1; }
         }
 
     }

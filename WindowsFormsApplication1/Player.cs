@@ -10,5 +10,7 @@ namespace WindowsFormsApplication1
     {
         string Port;
         string Name;
+
+        public string markierung { get; set; }
     }
 }

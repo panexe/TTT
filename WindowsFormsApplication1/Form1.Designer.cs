@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.bnt_1 = new System.Windows.Forms.Button();
+            this.btn_1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
             this.btn_3 = new System.Windows.Forms.Button();
             this.btn_4 = new System.Windows.Forms.Button();
@@ -45,16 +45,16 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // bnt_1
+            // btn_1
             // 
-            this.bnt_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bnt_1.Location = new System.Drawing.Point(12, 96);
-            this.bnt_1.Name = "bnt_1";
-            this.bnt_1.Size = new System.Drawing.Size(75, 75);
-            this.bnt_1.TabIndex = 0;
-            this.bnt_1.TabStop = false;
-            this.bnt_1.UseVisualStyleBackColor = true;
-            this.bnt_1.Click += new System.EventHandler(this.btn_Press);
+            this.btn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_1.Location = new System.Drawing.Point(12, 96);
+            this.btn_1.Name = "btn_1";
+            this.btn_1.Size = new System.Drawing.Size(75, 75);
+            this.btn_1.TabIndex = 0;
+            this.btn_1.TabStop = false;
+            this.btn_1.UseVisualStyleBackColor = true;
+            this.btn_1.Click += new System.EventHandler(this.btn_Press);
             // 
             // btn_2
             // 
@@ -209,7 +209,7 @@
             this.Controls.Add(this.btn_4);
             this.Controls.Add(this.btn_3);
             this.Controls.Add(this.btn_2);
-            this.Controls.Add(this.bnt_1);
+            this.Controls.Add(this.btn_1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -219,7 +219,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button bnt_1;
+        private System.Windows.Forms.Button btn_1;
         private System.Windows.Forms.Button btn_2;
         private System.Windows.Forms.Button btn_3;
         private System.Windows.Forms.Button btn_4;

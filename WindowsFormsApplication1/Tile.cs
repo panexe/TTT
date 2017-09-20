@@ -8,13 +8,13 @@ namespace WindowsFormsApplication1
 {
     class Tile
     {
-        int id;
+        public int id { get; set; }
         bool Pressed;
         Player pressed_by;
 
-        public Tile()
+        public Tile(int _id )
         {
-
+            id = _id;
         }
         
     }
