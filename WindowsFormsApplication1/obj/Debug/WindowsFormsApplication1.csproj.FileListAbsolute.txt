@@ -18,3 +18,13 @@ D:\TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.res
 D:\TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_Optionen.resources
 D:\TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_Optionen.resources
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Lars\Desktop\VS Projects\Schule_TTT\TTT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

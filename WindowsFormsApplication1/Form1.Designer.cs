@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.bnt_1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
             this.btn_3 = new System.Windows.Forms.Button();
@@ -41,6 +42,7 @@
             this.btn_newGame = new System.Windows.Forms.Button();
             this.label_züge = new System.Windows.Forms.Label();
             this.lbl_time = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // bnt_1
@@ -184,6 +186,12 @@
             this.lbl_time.TabIndex = 12;
             this.lbl_time.Text = "Zeit:";
             // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -224,6 +232,7 @@
         private System.Windows.Forms.Button btn_newGame;
         private System.Windows.Forms.Label label_züge;
         private System.Windows.Forms.Label lbl_time;
+        private System.Windows.Forms.Timer timer;
     }
 }
 

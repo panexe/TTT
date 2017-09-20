@@ -13,20 +13,26 @@ namespace WindowsFormsApplication1
     public partial class Form1 : Form
     {
         bool Turn;
+
+        Game Game;
         public Form1()
         {
             InitializeComponent();
             Turn = false;
+
+            Game = new Game();
         }
 
         public void btn_Press(object sender ,EventArgs e)
         {
             Button b = (Button)sender;
-            b.Enabled = false;
-            if(Turn)
-            b.Text = "X";
-            else { b.Text = "O"; }
-            Turn = !Turn;
+            //b.Enabled = false;
+            //if(Turn)
+            //b.Text = "X";
+            //else { b.Text = "O"; }
+            //Turn = !Turn;
+
+            
               
         }
 
@@ -39,6 +45,18 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                Game.SecondElapsed();
+            }catch(Exception ex)
+            {
+                
+            }
+            
         }
     }
 }

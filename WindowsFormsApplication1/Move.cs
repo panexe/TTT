@@ -8,10 +8,24 @@ namespace WindowsFormsApplication1
 {
     class Move
     {
-        Player player;
-        int time;
-        int time_taken;
+        Player _player;
+        int _time;
+        int _time_taken;
+        Tile _tile;
 
-        int Tile;
+        Game _game;
+
+        public Move(Player player, Tile tile , Game game)
+        {
+            _player = player;
+            _tile = tile;
+            _game = game;
+        }
+        public Move(Player player,int tile , Game game)
+        {
+            _player = player;
+            _game = game;
+            _tile = _game.Tiles[tile];
+        }
     }
 }
