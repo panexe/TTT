@@ -11,6 +11,8 @@ namespace WindowsFormsApplication1
         public int id { get; set; }
         bool Pressed;
         Player pressed_by;
+        public int x { get; set; }
+        public int y { get; set; }
 
         public Tile(int _id )
         {

@@ -82,5 +82,18 @@ namespace WindowsFormsApplication1
             else { moving_player = Player1; }
         }
 
+        public Player getPlayer(string _name)
+        {
+            if(Player1.Name == _name)
+            {
+                return Player1;
+            }
+            else if (Player2.Name == _name)
+            {
+                return Player2;
+            }
+            else { return null; }
+        }
+
     }
 }

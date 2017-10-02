@@ -8,9 +8,11 @@ namespace WindowsFormsApplication1
 {
     class Player
     {
-        string Port;
-        string Name;
+        public string Port { get; set; }
+        public string Name { get; set; }
 
         public string markierung { get; set; }
+
+        
     }
 }
